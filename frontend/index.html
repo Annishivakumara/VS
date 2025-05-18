@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidya Sampadana - Educational Platform</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" data-section="home">Vidya Sampadana</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-section="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-section="kcet">KCET</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-section="neet">NEET</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-section="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumb-container">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#" data-section="home">Home</a></li>
+                    <li class="breadcrumb-item active" id="current-page">Home</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Content Sections -->
+    <div class="content-container">
+        <!-- Home Section -->
+        <section id="home-section" class="section active">
+            <div class="hero-section">
+                <div class="container">
+                    <div class="row min-vh-100 align-items-center">
+                        <div class="col-lg-6">
+                            <h1 class="display-4 fw-bold">Welcome to Vidya Sampadana</h1>
+                            <p class="lead">Your trusted companion for KCET and NEET preparation</p>
+                            <div class="mt-4">
+                                <a href="#" class="btn btn-primary btn-lg me-3" data-section="kcet">KCET Resources</a>
+                                <a href="#" class="btn btn-success btn-lg" data-section="neet">NEET Resources</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- KCET Section -->
+        <section id="kcet-section" class="section">
+            <div class="container py-5">
+                <h2 class="text-center mb-5">KCET Preparation</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Important Dates</h5>
+                                <ul class="list-unstyled">
+                                    <li>Application Start: March 2024</li>
+                                    <li>Last Date: April 2024</li>
+                                    <li>Exam Date: May 2024</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Study Resources</h5>
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item list-group-item-action">Physics Notes</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Chemistry Notes</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Mathematics Notes</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Preparation Tips</h5>
+                                <ul class="list-unstyled">
+                                    <li>Focus on NCERT books</li>
+                                    <li>Practice previous year papers</li>
+                                    <li>Time management is crucial</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEET Section -->
+        <section id="neet-section" class="section">
+            <div class="container py-5">
+                <h2 class="text-center mb-5">NEET Preparation</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Important Dates</h5>
+                                <ul class="list-unstyled">
+                                    <li>Application Start: December 2023</li>
+                                    <li>Last Date: January 2024</li>
+                                    <li>Exam Date: May 2024</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Study Resources</h5>
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item list-group-item-action">Biology Notes</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Physics Notes</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Chemistry Notes</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Preparation Tips</h5>
+                                <ul class="list-unstyled">
+                                    <li>Master NCERT Biology</li>
+                                    <li>Regular practice tests</li>
+                                    <li>Focus on weak areas</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact-section" class="section">
+            <div class="container py-5">
+                <h2 class="text-center mb-5">Contact Us</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form id="contactForm" class="needs-validation" novalidate>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Vidya Sampadana</h5>
+                    <p>Empowering students for a brighter future</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#" class="text-light me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2024 Vidya Sampadana. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html> 
