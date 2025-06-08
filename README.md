@@ -2,6 +2,7 @@
 
 **Empowering Education, One Click at a Time!**
 
+
 ---
 
 ## 🚀 Project Overview
@@ -29,8 +30,8 @@ This project features a clean separation between:
 
 | Frontend           | Backend           | Database         | Tools           |
 |--------------------|-------------------|------------------|-----------------|
-| HTML5, CSS3        | Java              | [Your DB Here]   | Git, Docker (?) |
-| JavaScript (ES6+)  | [Spring Boot?]    |                  |                 |
+| HTML5, CSS3        | Java              |    | Git,\ |
+| JavaScript (ES6+)  |  |                  |                 |
 
 ---
 
